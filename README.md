@@ -33,6 +33,24 @@ You should land in the LCARS shell. What you'll see depends on progress done so 
 
 ---
 
+## How to Branch
+When making and using branches, you can thing of it as having "main" and "alternate" branches. The "main" branch that we are using is
+the original code that will be used for Project EVE. If someone wanted to make an adjustment, test something out,
+or just see what they can do with the code without worrying about ruining the original code that can make a branch of the code. 
+There can be multiple branches at the same time, just make sure that the code you branch from is from
+"main" and not a branch of "main". Once you finished editing the code and want to add what you worked
+on back to the main branch you can click on the pull request. After the Programming Lead has reviewed the code an answer will be given 
+and the branch will either be merged into the “main” branch or denied.
+
+```
+[ main branch ] ─────────────────────────────────────────> (Final Product)
+      |                                           ▲
+      |  (Copied & split)                         |  (Merging back into main)
+      ▼                                           | 
+[ 2nd branch  ] ───────(individual coding)───────── 
+```
+---
+
 # Development loop 
 
 Quickshell **hot-reloads QML files as you save them** (`settings.watchFiles: true`
